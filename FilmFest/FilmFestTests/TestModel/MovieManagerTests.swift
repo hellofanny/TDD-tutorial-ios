@@ -73,6 +73,21 @@ class MovieManagerTests: XCTestCase {
         XCTAssertEqual(movie.title, returnedMovie.title)
         
     }
+    
+    func testClearAllArrayItems_shouldReturnArrayCountsOfZero(){
+        sut.addMovieToLibrary(movie: Movie(title: "Thriller"))
+        sut.addMovieToLibrary(movie: Movie(title: "Comdey"))
+        sut.favoriteMovieAtIndex(index: 0)
+
+        XCTAssertEqual(sut.moviesToSeeCount, 1)
+        XCTAssertEqual(sut.moviesSeenCount, 1)
+        
+        sut.clearArrays()
+        
+        XCTAssertEqual(sut.moviesToSeeCount, 0)
+        XCTAssertEqual(sut.moviesSeenCount, 0)
+        
+    }
 
     
 }
