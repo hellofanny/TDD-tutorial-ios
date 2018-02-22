@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		36231012203E65D9002683E5 /* DropShadowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36231011203E65D9002683E5 /* DropShadowView.swift */; };
 		36C8A190203E2BDF00F91BAF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36C8A18F203E2BDF00F91BAF /* AppDelegate.swift */; };
 		36C8A192203E2BDF00F91BAF /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36C8A191203E2BDF00F91BAF /* MainViewController.swift */; };
 		36C8A195203E2BDF00F91BAF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 36C8A193203E2BDF00F91BAF /* Main.storyboard */; };
@@ -29,6 +30,7 @@
 
 /* Begin PBXFileReference section */
 		07B84EE468C3F56EC834C97D /* Pods-FilmFest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FilmFest.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FilmFest/Pods-FilmFest.debug.xcconfig"; sourceTree = "<group>"; };
+		36231011203E65D9002683E5 /* DropShadowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DropShadowView.swift; sourceTree = "<group>"; };
 		36C8A18C203E2BDF00F91BAF /* FilmFest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FilmFest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		36C8A18F203E2BDF00F91BAF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		36C8A191203E2BDF00F91BAF /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
@@ -95,6 +97,7 @@
 				36C8A196203E2BDF00F91BAF /* Assets.xcassets */,
 				36C8A198203E2BDF00F91BAF /* LaunchScreen.storyboard */,
 				36C8A19B203E2BDF00F91BAF /* Info.plist */,
+				36231011203E65D9002683E5 /* DropShadowView.swift */,
 			);
 			path = FilmFest;
 			sourceTree = "<group>";
@@ -339,6 +342,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				36231012203E65D9002683E5 /* DropShadowView.swift in Sources */,
 				36C8A192203E2BDF00F91BAF /* MainViewController.swift in Sources */,
 				36C8A190203E2BDF00F91BAF /* AppDelegate.swift in Sources */,
 			);
