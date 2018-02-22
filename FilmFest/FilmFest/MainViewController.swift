@@ -10,11 +10,15 @@ import UIKit
 import ChameleonFramework
 
 class MainViewController: UIViewController {
-
+ 
+    override var preferredStatusBarStyle: UIStatusBarStyle {
+        return .lightContent
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        //self.view.backgroundColor = GradientColor()
+        self.view.backgroundColor = GradientColor(.topToBottom, frame: self.view.frame, colors: [UIColor.flatSkyBlue, UIColor.flatPowderBlue])
         
         
     }
